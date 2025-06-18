@@ -1,0 +1,61 @@
+/* general css styling for the website */
+
+.container {
+  max-width: 400px; 
+  margin: auto; 
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); 
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+}
+
+h1 {
+  font-size: 24px; 
+  color: #007bff; 
+  text-align: center; 
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-color: #007bff; 
+}
+
+button, .button-like {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s; 
+}
+
+button:hover,
+.button-like:hover {
+  background-color: #003366;  
+  color: white;
+}
+
+.signup-text {
+  text-align: center; 
+  font-size: 0.9em;
+  margin-top: 15px; 
+}
+
+.signup-text a {
+  color: #007bff; 
+  text-decoration: none; 
+}
+
+.signup-text a:hover {
+  text-decoration: underline; 
+}
+
+.error {
+  color: #dc3545; 
+  font-size: 0.85em; 
+  text-align: center; 
+  margin-top: 10px;
+}

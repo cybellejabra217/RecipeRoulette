@@ -1,0 +1,26 @@
+
+/* style for the login background*/
+.login-background {
+    background-image: url('../../../public/loginpage.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: viewport; 
+    width: viewport;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+    height: 100vh;
+  }
+  
+  /* style for the login container */
+  .login-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 3rem;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: white; 
+  }
+  

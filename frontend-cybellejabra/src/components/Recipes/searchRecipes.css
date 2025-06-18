@@ -1,0 +1,48 @@
+/* styles the search recipes container */
+.search-recipes-container {
+    padding: 70px;
+    background-image: url('../../../public/background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* styles the recipe list */
+.recipe-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* styles the recipe item */
+.recipe-item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+/* styles the recipe image */
+.recipe-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+/* styles the recipe info */
+.recipe-info {
+    flex: 1;
+}
+
+/* styles the recipe title */
+.recipe-title a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* styles the recipe title (hover) */
+.recipe-title a:hover {
+    text-decoration: underline;
+}
+
+.title-button:hover {
+    color: white;
+    background-color: black;
+}

@@ -1,0 +1,41 @@
+
+/* styling for profile container */
+.profile-container {
+    padding: 80px;
+    background-image: url('../../../public/background.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* styling for profile header */
+  .profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .profile-header .avatar {
+    margin-right: 20px;
+  }
+  
+  /* styling for profile bio */
+  .profile-bio {
+    margin-bottom: 30px;
+  }
+  
+  /* styling for profile recipes and reviesw */
+  .profile-recipes, .profile-reviews {
+    margin-top: 30px;
+  }
+  
+  /* styling for accordion (which shows recipes and reviews) */
+  .accordion-header {
+    background-color: #fff;
+    border-radius: 8px;
+  }
+  
+  .accordion-content {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
